@@ -1,4 +1,10 @@
 <?php
+
+function get_main() {
+    include "page-testing.php";
+}
+
+
 add_theme_support( 'post-thumbnails' ); // для всех типов постов
 
 if ( function_exists ( 'add_theme_support' ) )

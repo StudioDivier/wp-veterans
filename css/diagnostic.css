@@ -1,0 +1,110 @@
+.diagnostic__main .diagnostic-main-bg-1 {
+  background-image: url("../img/d-main-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: 25% 50%; }
+
+.diagnostic__main .diagnostic-main-bg-2 {
+  background-image: url("../img/d-main-bg-2.png");
+  background-repeat: no-repeat;
+  background-position: 55% 50%; }
+  @media (max-width: 992px) {
+    .diagnostic__main .diagnostic-main-bg-2 {
+      background-image: none; } }
+
+.diagnostic__main .diagnostic-main-bg-3 {
+  background-image: url("../img/diagnostic-main-bg.png");
+  background-repeat: no-repeat;
+  background-position: 20% 50%; }
+  @media (min-width: 1440px) {
+    .diagnostic__main .diagnostic-main-bg-3 {
+      background-size: 50%; } }
+  @media (min-width: 1600px) {
+    .diagnostic__main .diagnostic-main-bg-3 {
+      background-size: 40%; } }
+  @media (max-width: 1200px) {
+    .diagnostic__main .diagnostic-main-bg-3 {
+      background-size: 60%; } }
+  @media (max-width: 992px) {
+    .diagnostic__main .diagnostic-main-bg-3 {
+      background-image: none; } }
+
+.diagnostic__main .diagnostic-main-bg-4 {
+  background-image: url("../img/d-bg-main-4.png");
+  background-repeat: no-repeat;
+  background-position: 70% 50%; }
+  @media (max-width: 992px) {
+    .diagnostic__main .diagnostic-main-bg-4 {
+      background-image: none; } }
+
+.diagnostic__main .diagnostic-main-bg-5 {
+  background-image: url("../img/d-bg-main-5.png");
+  background-repeat: no-repeat;
+  background-position: 50% 60%; }
+  @media (max-width: 992px) {
+    .diagnostic__main .diagnostic-main-bg-5 {
+      background-image: none; } }
+
+.diagnostic__main .diagnostic-main-bg-6 {
+  background-image: url("../img/d-bg-main-6.png");
+  background-repeat: no-repeat;
+  background-position: 40% 60%;
+  padding-top: 85px;
+  padding-bottom: 70px; }
+  @media (min-width: 992px) {
+    .diagnostic__main .diagnostic-main-bg-6 {
+      padding-bottom: 150px; } }
+
+.diagnostic__main h1 {
+  color: #2b4258;
+  font-size: 55px;
+  max-width: 380px;
+  margin-bottom: 35px; }
+  @media (max-width: 1600px) {
+    .diagnostic__main h1 {
+      font-size: 50px; } }
+  @media (max-width: 1440px) {
+    .diagnostic__main h1 {
+      font-size: 40px; } }
+  @media (max-width: 1200px) {
+    .diagnostic__main h1 {
+      font-size: 35px; } }
+
+.diagnostic__main .dm-subtitle {
+  color: #091014;
+  max-width: 480px;
+  font-weight: 300;
+  margin-bottom: 25px; }
+
+.diagnostic__main .row p:first-child {
+  font-weight: 500;
+  color: #2b4258;
+  max-width: 350px; }
+
+.diagnostic__main .row p:last-child {
+  font-weight: 300;
+  color: #2b4258;
+  max-width: 350px; }
+
+.diagnostic__erbilight {
+  background-image: url("../img/erbilight-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; }
+  .diagnostic__erbilight .col-xl-3 img {
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+    max-width: 270px; }
+  .diagnostic__erbilight .col-xl-9 p {
+    color: #ffffff;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    max-width: 450px;
+    font-size: 20px;
+    line-height: 40px; }
+    @media (max-width: 576px) {
+      .diagnostic__erbilight .col-xl-9 p {
+        font-size: 16px; } }
+    .diagnostic__erbilight .col-xl-9 p span {
+      border: 1px solid #ffffff;
+      padding: 5px 20px; }
